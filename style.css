@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100vw;
+    display: flex;
+    justify-content:flex-end;
+    text-decoration: none;    
+    background: #e9ebf0;
+}
+
+/* barra de nav */
+.nav-bar, .bar1, .bar2, .bar3 {
+    display: flex;
+    padding: 5px;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+
+/* Box: Gmail - Imagenes */
+.bar1 , .bar2 {
+    display: flex;
+    align-items: center;
+}
+
+/*Box: Gmail */
+.bar1{
+    margin: 0px -7px;
+}
+
+/*Box: Iniciar Sesión */
+.bar3 > a {  
+ background: rgb(49, 61, 231);
+ color: aliceblue;
+ margin: 0 15px;
+ display: inline;
+ padding: 8px;
+}
+
+/* Propiedades ícono de 9 puntos */
+.icon {
+    display: flex;
+    align-items: center;
+    margin: -8px;
+}
+
+/* Icono de 9 puntos - parte unida */
+.icon1 {
+    margin: -8px;
+}
+
+body{
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+    font-size: 81.25%;
+    background: #e9ebf0;
+    margin: 0;
+}
+
+/* Img central Google */
+.container-medio{
+    background: #e9ebf0;
+    height: 80vh;
+    text-align: center; 
+}
+
+/* Barra de busqueda */
+.box-0 > input {
+    display: flex;
+    position: relative;
+    top: 110px;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+    width: 500px;
+    height: 25px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    background: white;
+}   
+
+/* contenedor div search */
+.search {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    position: relative; 
+    top: 90px;
+}
+
+/* Box: Buscar con Google - Me siento con suerte */
+ input {
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    background: rgb(211, 219, 226);
+}
+
+.logo-google {
+    position: relative;   
+    top: 100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer{
+    position: fixed;
+    bottom: 20px;
+    width: 95%;
+    border: none;
+    margin-left: 20px;
+    background: rgb(211, 219, 226);
+}
+
+/* Alineación de links de footer */
+.u-line1{
+    margin: 10px; 
+    margin-left: 0px; 
+    padding: 2px;
+    margin-left: 10px
+}
+
+.u-line2 {
+    position: relative;
+    display: inline-block; 
+    margin: 10px;
+    margin-left: 10px;
+ }
+
+.u-line2 > a {
+    margin: 0px 10px;
+    margin-left: 0px;
+}
+
+.u-line3 {
+    position: relative;
+    display: inline-block;
+    left: 570px;
+}
+
+.u-line3 > a {
+    margin: 0px 8px;
+    margin-right: 0px;
+}
+
+
+@media screen and (min-width: 992px) {
+    /* estilos para pantallas de 992px o más */
+  }
+
